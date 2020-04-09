@@ -9,14 +9,15 @@ You do not need to install anything to view the results, all of them are pushed 
 
 ## Launch the notebook
 ### Install
-This project uses jupyter notebook. Everything is set up by the dockerfile.
+This project uses jupyter notebook. Everything is set up by the dockerfile. Scripts can help you build and launch everything
 
 ### Docker install
 To install docker, follow the instructions here: https://docs.docker.com/get-docker/
 
-### Install the custom jupyter image
- To build the docker image, run:
-```
-docker build . -t custom/graph-algo-and-matching:latest
-```
+### Build and launch by scripts
+-   To build: ```./buildJupyterImage.sh```
+-   To launch: ```./launchNotebookServer.sh```
 
+### Open notebooks
+Jupyter is a web app, to open your notebooks, open in your browser the following url:
+http://localhost:8888/lab

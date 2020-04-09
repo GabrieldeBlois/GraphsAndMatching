@@ -1,1 +1,2 @@
-docker run  custom/graph-algo-and-matching:latest -it -v ./src:/home/jovyan
+#!/bin/bash
+docker run -it -v "${PWD}/src":"/home/jovyan" -p 8888:8888 graph-algo-and-matching
