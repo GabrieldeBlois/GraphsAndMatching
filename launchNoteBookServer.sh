@@ -1,0 +1,1 @@
+docker run  custom/graph-algo-and-matching:latest -it -v ./src:/home/jovyan
