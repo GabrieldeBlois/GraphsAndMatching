@@ -3,3 +3,6 @@ seaborn
 graphviz
 scipy
 scikit-learn
+seaborn
+spotipy
+pandas
