@@ -10,6 +10,10 @@ RUN apt-get update && apt-get install -y \
 USER jovyan
 RUN pip install -r ./requirements.txt
 
+RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build && \
+    jupyter labextension install qgrid2 --no-build && \
+    jupyter lab build
+
 RUN rm ./requirements.txt
 
 ENV NB_PREFIX /
