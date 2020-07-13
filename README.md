@@ -2,7 +2,7 @@
 EPITECH course graphs algorithms and matching
 
 ## Project goal
-blablabla
+My aim for this project is to create my own "go to radio" functionality of spotify with my favorite songs. In order to that I'm gonna retrieve my favorite songs as a dataset with their corresponding audio features given by spotify and I will, through clustering, separate my playlist between several clusters in order to produce multiple playlists that are supposed to be "matching"
 
 ## See the results
 You do not need to install anything to view the results, all of them are pushed on github, and it supports notebooks natively. So the results can be reviewed directly on github
