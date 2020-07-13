@@ -7,6 +7,8 @@ My aim for this project is to create my own "go to radio" functionality of spoti
 ## See the results
 You do not need to install anything to view the results, all of them are pushed on github, and it supports notebooks natively. So the results can be reviewed directly on github
 
+- All the results are in the file Project.ipynb inside the src folder
+
 ## Launch the notebook
 ### Install
 This project uses jupyter notebook. Everything is set up by the dockerfile. Scripts can help you build and launch everything
